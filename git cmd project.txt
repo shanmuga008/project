@@ -1,0 +1,253 @@
+Microsoft Windows [Version 10.0.22000.2538]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\vshan>cd..
+
+C:\Users>D:
+
+D:\>md project 1
+
+D:\>cd project 1
+The system cannot find the path specified.
+
+D:\>cd project 1
+The system cannot find the path specified.
+
+D:\>cd project
+
+D:\project>git clone https://github.com/PuneethReddyHC/online-shopping-system-advanced.git
+Cloning into 'online-shopping-system-advanced'...
+remote: Enumerating objects: 692, done.
+remote: Counting objects: 100% (116/116), done.
+remote: Compressing objects: 100% (46/46), done.
+Receiving objects: 100% (692/692), 26.75 MiB | 1.17 MiB/s, done.576
+
+Resolving deltas: 100% (177/177), done.
+
+D:\project>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is CAA8-3ADF
+
+ Directory of D:\project
+
+26-11-2023  14:07    <DIR>          .
+26-11-2023  14:02               213 echo # project-  README.md.txt
+26-11-2023  14:02               114 git remote add origin httpsgithub.c.txt
+26-11-2023  14:07    <DIR>          online-shopping-system-advanced
+               2 File(s)            327 bytes
+               2 Dir(s)   2,268,991,488 bytes free
+
+D:\project>cd online-shopping-system-advanced
+
+D:\project\online-shopping-system-advanced>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is CAA8-3ADF
+
+ Directory of D:\project\online-shopping-system-advanced
+
+26-11-2023  14:07    <DIR>          .
+26-11-2023  14:07    <DIR>          ..
+26-11-2023  14:07                52 .gitattributes
+26-11-2023  14:07    <DIR>          .github
+26-11-2023  14:07            26,860 action.php
+26-11-2023  14:07    <DIR>          admin
+26-11-2023  14:07            22,444 body.php
+26-11-2023  14:07               220 cart.php
+26-11-2023  14:07             8,463 checkout.php
+26-11-2023  14:07             2,781 checkout_process.php
+26-11-2023  14:07                65 CNAME
+26-11-2023  14:07             3,062 config.php
+26-11-2023  14:07    <DIR>          css
+26-11-2023  14:07    <DIR>          database
+26-11-2023  14:07               289 db.php
+26-11-2023  14:07               186 error.php
+26-11-2023  14:07    <DIR>          fonts
+26-11-2023  14:07             5,894 footer.php
+26-11-2023  14:07            12,100 header.php
+26-11-2023  14:07             6,071 homeaction.php
+26-11-2023  14:07    <DIR>          img
+26-11-2023  14:07               118 index.php
+26-11-2023  14:07    <DIR>          js
+26-11-2023  14:07            11,552 LICENSE
+26-11-2023  14:07             4,365 login.php
+26-11-2023  14:07               274 logout.php
+26-11-2023  14:07             8,618 myorders.php
+26-11-2023  14:07             1,357 newslettter.php
+26-11-2023  14:07             1,709 offersmail.php
+26-11-2023  14:07             2,849 order_successful.php
+26-11-2023  14:07             2,953 payment_success.php
+26-11-2023  14:07            15,275 product.php
+26-11-2023  14:07             3,947 products.php
+26-11-2023  14:07    <DIR>          product_images
+26-11-2023  14:07             7,622 README.md
+26-11-2023  14:07             3,953 register.php
+26-11-2023  14:07             1,255 review.php
+26-11-2023  14:07             7,029 review_action.php
+26-11-2023  14:07    <DIR>          screenshot
+26-11-2023  14:07             5,520 signin_form.php
+26-11-2023  14:07             4,577 signup_form.php
+26-11-2023  14:07             3,869 store.php
+26-11-2023  14:07                84 topheader
+26-11-2023  14:07               220 wishlist.php
+26-11-2023  14:07                26 _config.yml
+              34 File(s)        175,659 bytes
+              11 Dir(s)   2,268,991,488 bytes free
+
+D:\project\online-shopping-system-advanced>git config-global user.name "shanmuga008"
+git: 'config-global' is not a git command. See 'git --help'.
+
+D:\project\online-shopping-system-advanced>git config--global user.name "shanmuga008"
+git: 'config--global' is not a git command. See 'git --help'.
+
+D:\project\online-shopping-system-advanced>git config --global user.name "shanmuga008"
+
+D:\project\online-shopping-system-advanced>git config --global user.name "vshanmugapriyan88@gmail.com"
+
+D:\project\online-shopping-system-advanced>git init
+Reinitialized existing Git repository in D:/project/online-shopping-system-advanced/.git/
+
+D:\project\online-shopping-system-advanced>git add README.md
+
+D:\project\online-shopping-system-advanced>git switch -c develop
+Switched to a new branch 'develop'
+
+D:\project\online-shopping-system-advanced>git status
+On branch develop
+nothing to commit, working tree clean
+
+D:\project\online-shopping-system-advanced>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> develop
+
+
+D:\project\online-shopping-system-advanced>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is CAA8-3ADF
+
+ Directory of D:\project\online-shopping-system-advanced
+
+26-11-2023  14:07    <DIR>          .
+26-11-2023  14:07    <DIR>          ..
+26-11-2023  14:07                52 .gitattributes
+26-11-2023  14:07    <DIR>          .github
+26-11-2023  14:07            26,860 action.php
+26-11-2023  14:07    <DIR>          admin
+26-11-2023  14:07            22,444 body.php
+26-11-2023  14:07               220 cart.php
+26-11-2023  14:07             8,463 checkout.php
+26-11-2023  14:07             2,781 checkout_process.php
+26-11-2023  14:07                65 CNAME
+26-11-2023  14:07             3,062 config.php
+26-11-2023  14:07    <DIR>          css
+26-11-2023  14:07    <DIR>          database
+26-11-2023  14:07               289 db.php
+26-11-2023  14:07               186 error.php
+26-11-2023  14:07    <DIR>          fonts
+26-11-2023  14:07             5,894 footer.php
+26-11-2023  14:07            12,100 header.php
+26-11-2023  14:07             6,071 homeaction.php
+26-11-2023  14:07    <DIR>          img
+26-11-2023  14:07               118 index.php
+26-11-2023  14:07    <DIR>          js
+26-11-2023  14:07            11,552 LICENSE
+26-11-2023  14:07             4,365 login.php
+26-11-2023  14:07               274 logout.php
+26-11-2023  14:07             8,618 myorders.php
+26-11-2023  14:07             1,357 newslettter.php
+26-11-2023  14:07             1,709 offersmail.php
+26-11-2023  14:07             2,849 order_successful.php
+26-11-2023  14:07             2,953 payment_success.php
+26-11-2023  14:07            15,275 product.php
+26-11-2023  14:07             3,947 products.php
+26-11-2023  14:07    <DIR>          product_images
+26-11-2023  14:07             7,622 README.md
+26-11-2023  14:07             3,953 register.php
+26-11-2023  14:07             1,255 review.php
+26-11-2023  14:07             7,029 review_action.php
+26-11-2023  14:07    <DIR>          screenshot
+26-11-2023  14:07             5,520 signin_form.php
+26-11-2023  14:07             4,577 signup_form.php
+26-11-2023  14:07             3,869 store.php
+26-11-2023  14:07                84 topheader
+26-11-2023  14:07               220 wishlist.php
+26-11-2023  14:07                26 _config.yml
+              34 File(s)        175,659 bytes
+              11 Dir(s)   2,268,991,488 bytes free
+
+D:\project\online-shopping-system-advanced>git add signin_form.php signup_form.php
+
+D:\project\online-shopping-system-advanced>git status
+On branch develop
+nothing to commit, working tree clean
+
+D:\project\online-shopping-system-advanced>git commit -m "signin &signup form"
+On branch develop
+nothing to commit, working tree clean
+
+D:\project\online-shopping-system-advanced>git remote add origin https://github.com/shanmuga008/project1.git
+error: remote origin already exists.
+
+D:\project\online-shopping-system-advanced>git branch
+* develop
+  master
+
+D:\project\online-shopping-system-advanced>git add signin_form.php
+
+D:\project\online-shopping-system-advanced>git init
+Reinitialized existing Git repository in D:/project/online-shopping-system-advanced/.git/
+
+D:\project\online-shopping-system-advanced>git branch
+* develop
+  master
+
+D:\project\online-shopping-system-advanced>git add signin_form.php
+D:\project\online-shopping-system-advanced>git add signin_form.php
+
+D:\project\online-shopping-system-advanced>git push - u origin Develop
+error: src refspec u does not match any
+error: failed to push some refs to '-'
+
+D:\project\online-shopping-system-advanced>git commit -m "signup_form"
+On branch develop
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+D:\project\online-shopping-system-advanced> git branch -M Developform"
+
+D:\project\online-shopping-system-advanced>git branch -M Develop
+
+D:\project\online-shopping-system-advanced> git remote add origin https://github.com/shanmuga008/project-.git
+error: remote origin already exists.
+
+D:\project\online-shopping-system-advanced>git push -u origin Develop
+remote: Permission to PuneethReddyHC/online-shopping-system-advanced.git denied to shanmuga008.
+fatal: unable to access 'https://github.com/PuneethReddyHC/online-shopping-system-advanced.git/': The requested URL returned error: 403
+
+D:\project\online-shopping-system-advanced>git push -u origin Develop
+remote: Permission to PuneethReddyHC/online-shopping-system-advanced.git denied to shanmuga008.
+fatal: unable to access 'https://github.com/PuneethReddyHC/online-shopping-system-advanced.git/': The requested URL returned error: 403
+
+D:\project\online-shopping-system-advanced>git push -u origin Develop
+fatal: not a git repository (or any of the parent directories): .git
+D:\project\online-shopping-system-advanced>git push -u origin Develop
+fatal: detected dubious ownership in repository at 'D:/'
+'D:/' is owned by:
+        'S-1-5-18'
+but the current user is:
+        'S-1-5-21-4200081972-4084491525-3064415506-1001'
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory D:/
+
+D:\project\online-shopping-system-advanced>
